@@ -1,0 +1,18 @@
+#currentBtn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#nextBtn {
+  border-radius: 0;
+}
+
+#allBtn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+td a,
+td a:hover {
+  color: #fff;
+}
