@@ -287,6 +287,13 @@ class Events extends Component {
             })}
           </tbody>
         </table>
+
+        {// display warning if non artists are playing right now
+        this.state.view === "current" && view.length === 0 && (
+          <h2 className="text-danger text-center pt-2 pb-2">
+            ADD not started yet
+          </h2>
+        )}
       </div>
     );
   }

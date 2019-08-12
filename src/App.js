@@ -12,24 +12,24 @@ class App extends Component {
         <Route exact path="/map" component={Map} />
 
         <NavLink to="/map" activeClassName="active">
-          <button id="mapBtn" class="btn btn-danger ml-2">
+          <button id="mapBtn" className="btn btn-danger ml-2">
             Map
           </button>
         </NavLink>
 
-        <div class="btn-group mb-3 float-right mr-2">
+        <div className="btn-group mb-3 float-right mr-2">
           <NavLink to="/" exact activeClassName="active">
-            <button id="currentBtn" class="btn btn-danger">
+            <button id="currentBtn" className="btn btn-danger">
               Current
             </button>
           </NavLink>
           {/* <NavLink to="/next" activeClassName="active">
-            <button id="nextBtn" class="btn btn-danger">
+            <button id="nextBtn" className="btn btn-danger">
               Next
             </button>
           </NavLink> */}
           <NavLink to="/all" activeClassName="active">
-            <button id="allBtn" class="btn btn-danger">
+            <button id="allBtn" className="btn btn-danger">
               All
             </button>
           </NavLink>
