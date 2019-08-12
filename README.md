@@ -20,4 +20,4 @@
 	<li>Bootstrap</li>
 </ul>
 
-<a href="https://add2019.netlify.com/" target="_blank">Demo</a>
+<a href="https://add2019.netlify.com/all" target="_blank">Demo</a>
