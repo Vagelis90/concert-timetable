@@ -6,6 +6,7 @@
  <li>Display a timetable with artists per stage</li>
  <li>Current playing view for each stage based on current time</li>
  <li>Map to navigate between stages</li>
+ <li>Click on an artist to find songs on youtube</li>
 </ul>
 
 <br />
